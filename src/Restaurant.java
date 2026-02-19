@@ -22,8 +22,6 @@ public class Restaurant {
 
     // Getters & Setters
     // Accessors & Mutators
-
-
     public String getName() {
         return name;
     }
@@ -72,12 +70,7 @@ public class Restaurant {
         this.hoursOpen = hoursOpen;
     }
 
-//    private String name;
-//    private int waitTime;
-//    private double rating;
-//    private double avgPrice;
-//    private double distance;
-//    private String hoursOpen;
+    @Override
     public String toString() {
         return "Restaurant Name:\t" + name +
                 "\nWait Time:\t\t\t" + waitTime +
